@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {SmartWallet} from "src/SmartWallet.sol";
-import {GoerliConfig} from "config/GoerliConfig.sol";
+import {GoerliConfig} from "src/config/GoerliConfig.sol";
 import "forge-std/Script.sol";
 
 // Deploy the smart wallet. Make use of a previously deployed ENTRY_POINT

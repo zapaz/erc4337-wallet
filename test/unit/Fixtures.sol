@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 import {Vm} from "forge-std/Test.sol";
 import {ECDSA} from "openzeppelin-contracts/utils/cryptography/ECDSA.sol";
-import {UserOperation} from "src/external/UserOperation.sol";
+import {UserOperation} from "src/interfaces/UserOperation.sol";
 import {createSignature} from "test/utils/createSignature.sol";
 import {getUserOpHash} from "test/utils/getUserOpHash.sol";
 

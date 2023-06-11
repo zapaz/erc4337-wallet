@@ -6,7 +6,7 @@ import {PayMaster} from "src/PayMaster.sol";
 import {EntryPoint} from "src/external/EntryPoint.sol";
 import {WalletFactory} from "src/WalletFactory.sol";
 import {PayMasterToken} from "src/PayMasterToken.sol";
-import {MockERC20} from "test/unit/mock/MockERC20.sol";
+import {MockERC20} from "test/mock/MockERC20.sol";
 import "forge-std/Script.sol";
 
 // Deploy the smart wallet. Make use of a previously deployed ENTRY_POINT

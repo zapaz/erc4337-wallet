@@ -4,7 +4,7 @@ pragma solidity ^0.8.13;
 import "forge-std/Test.sol";
 
 import {SmartWallet} from "src/SmartWallet.sol";
-import {UserOperation} from "src/external/UserOperation.sol";
+import {UserOperation} from "src/interfaces/UserOperation.sol";
 import {MockSetter} from "./mock/MockSetter.sol";
 import {getUserOperation} from "./Fixtures.sol";
 

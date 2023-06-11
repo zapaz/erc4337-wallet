@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {WalletFactory} from "src/WalletFactory.sol";
-import {GoerliConfig} from "config/GoerliConfig.sol";
+import {GoerliConfig} from "src/config/GoerliConfig.sol";
 import "forge-std/Script.sol";
 
 // Deploy a WalletFactory, which is used to deploy other smart wallets

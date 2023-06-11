@@ -6,11 +6,11 @@ import "forge-std/Test.sol";
 import {IEntryPoint} from "src/external/IEntryPoint.sol";
 import {IWallet} from "src/interfaces/IWallet.sol";
 import {IPayMaster} from "src/interfaces/IPayMaster.sol";
-import {UserOperation} from "src/external/UserOperation.sol";
-import {GoerliConfig} from "config/GoerliConfig.sol";
+import {UserOperation} from "src/interfaces/UserOperation.sol";
+import {GoerliConfig} from "src/config/GoerliConfig.sol";
 import {createSignature} from "test/utils/createSignature.sol";
 import {getUserOpHash} from "test/utils/getUserOpHash.sol";
-import {MockERC20} from "test/unit/mock/MockERC20.sol";
+import {MockERC20} from "test/mock/MockERC20.sol";
 
 /// @notice End-to-end test deployed account abstraction contracts
 contract EndToEndTestNoPaymaster is Test {
